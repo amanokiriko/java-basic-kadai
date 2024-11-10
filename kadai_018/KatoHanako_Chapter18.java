@@ -3,7 +3,7 @@ package kadai_018;
 public class KatoHanako_Chapter18 extends Kato_Chapter18 {
 
     public KatoHanako_Chapter18() {
-        this.givenName = "花子"; 
+        this.givenName = "花子";
     }
 
     public void eachIntroduce() {
