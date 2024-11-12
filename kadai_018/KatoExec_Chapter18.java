@@ -1,20 +1,21 @@
 package kadai_018;
 
 public class KatoExec_Chapter18 {
+    public static void main(String[] args) {
+        KatoTaro_Chapter18 Taro = new KatoTaro_Chapter18();
+        Taro.setGivenName();
+        Taro.execIntroduce();
+		System.out.println();
+        
+        KatoIchiro_Chapter18 Ichiro = new KatoIchiro_Chapter18();
+        Ichiro.setGivenName();
+        Ichiro.execIntroduce();
+		System.out.println();
 
-	public static void main(String[] args) {
-		
-		Kato_Chapter18 KatoTaro = new KatoTaro_Chapter18();
-		Kato_Chapter18 KatoIchiro = new KatoIchiro_Chapter18();
-		Kato_Chapter18 KatoHanako = new KatoHanako_Chapter18();
-	
-		KatoTaro.execIntroduce();
-		System.out.println(); 
-		
-		KatoIchiro.execIntroduce();
+        KatoHanako_Chapter18 Hanako = new KatoHanako_Chapter18();
+        Hanako.setGivenName();
+        Hanako.execIntroduce();
 		System.out.println();
-		
-		KatoHanako.execIntroduce();
-		System.out.println();
-	}
+
+    }
 }
